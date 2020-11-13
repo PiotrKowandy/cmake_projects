@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/phoennix/Desktop/cmake_projects/reverse_string/src/reverse_string.cpp
+reverse_string.hpp
+/Users/phoennix/Desktop/cmake_projects/reverse_string/src/reverse_string.hpp
+string
+-
+cctype
+-
+algorithm
+-
+
+/Users/phoennix/Desktop/cmake_projects/reverse_string/src/reverse_string.hpp
+string
+-
+
