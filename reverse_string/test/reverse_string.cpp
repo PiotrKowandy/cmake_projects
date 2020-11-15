@@ -59,3 +59,22 @@ TEST(SwitchString3Test, onlydigits3){
     switch_string3(test_word);
     EXPECT_EQ("1", test_word);
 }
+
+//switch_string4(std::string& word)
+TEST(Switch_string4Test, compareIfThoseWordsAreTheSame4){
+    std::string test_word = "word";
+    switch_string4(test_word);
+    EXPECT_EQ("drow", test_word);
+}
+
+TEST(SwitchString4Test, onlyOneLetter4){
+    std::string test_word = "s";
+    switch_string4(test_word);
+    EXPECT_EQ("s", test_word);
+}
+
+TEST(SwitchString4Test, onlydigits4){
+    std::string test_word = "1";
+    switch_string4(test_word);
+    EXPECT_EQ("1", test_word);
+}
