@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libreverse_string_lib.a CMakeFiles/reverse_string_lib.dir/main.cpp.o CMakeFiles/reverse_string_lib.dir/reverse_string.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libreverse_string_lib.a
