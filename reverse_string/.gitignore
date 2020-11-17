@@ -1,0 +1,6 @@
+/build
+.DS_Store
+fibonacci/.*
+.ignore
+.vscode
+ReadMe.txt
